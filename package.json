@@ -14,8 +14,8 @@
   "main": "server.js",
   "scripts": {
     "generate": "node generateData.js > db.json",
-    "dev": "NODE_ENV=development node server.js",
-    "start": "NODE_ENV=production node server.js"
+    "dev": "node server.js",
+    "start": "production node server.js"
   },
   "author": "",
   "license": "ISC",
