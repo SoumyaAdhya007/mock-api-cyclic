@@ -15,7 +15,7 @@
   "scripts": {
     "generate": "node generateData.js > db.json",
     "dev": "node server.js",
-    "start": "production node server.js"
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
